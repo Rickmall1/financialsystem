@@ -1,0 +1,44 @@
+header {
+
+    padding: 3rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #141517;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav{
+
+        display: flex;
+        align-items: center;
+        gap: 8rem;
+
+        ul {
+            display: flex;
+            gap: 3.5rem;
+
+            li{
+                a {
+                    color: $brand-light-orange
+                }
+            }
+            
+        }
+
+        .accountBtns {
+
+            a {
+                color: $brand-light-orange
+            }
+
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+    }
+}
