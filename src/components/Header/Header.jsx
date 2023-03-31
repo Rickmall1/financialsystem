@@ -13,7 +13,7 @@ function Header() {
                     <li><a href="#">Contato</a></li>
                 </ul>
                 <div className="accountBtns">
-                    <a href="#">Login</a>
+                    <a href="#" className='loginBtn'>Login</a>
                     <MainBtn text="Cadastre-se"/>
                 </div>
             </nav>

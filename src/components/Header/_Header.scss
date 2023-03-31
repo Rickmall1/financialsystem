@@ -19,25 +19,47 @@ header {
 
         ul {
             display: flex;
-            gap: 3.5rem;
+            gap: 1.5rem;
 
             li{
                 a {
-                    color: $brand-light-orange
+                    color: $brand-light-orange;
+                    padding: 2rem;
+                    transition: all 0.25s ease-in;
+
+                    &:hover {
+                        color: #F06F40;
+                        background-color: rgba(#0f1011, 0.75);
+                        border-radius: 1rem;
+                    }
                 }
             }
             
         }
 
         .accountBtns {
+        
+            background-color: $brand-light-orange;
+            padding: 1rem 1.75rem;
+            border-radius: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 3rem;
 
             a {
                 color: $brand-light-orange
             }
 
-            display: flex;
-            align-items: center;
-            gap: 2rem;
+            .loginBtn {
+                color: $brand-primary-orange;
+                padding: 0 1rem;
+                transition: all 0.25s ease-in;
+                
+                &:hover {
+                    color: #141517;
+                }
+
+            }
         }
 
     }
