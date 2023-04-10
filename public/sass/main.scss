@@ -3,10 +3,16 @@
 @import "grid";
 
 // MainBtn
-@import "../../src/components/MainBtn/MainBtn";
+@import "../../src/components/Global/MainBtn/MainBtn.scss";
 
 // Header
-@import "../../src/components/Header/Header";
+@import "../../src/components/Home/Header/Header.scss";
 
 // Hero
-@import "../../src/components/Hero/Hero";
+@import "../../src/components/Home/Hero/Hero.scss";
+
+// Partners
+@import "../../src/components/Home/Partners/Partners.scss";
+
+// Dashboard
+@import "../../src/components/Home/Dashboard/Dashboard.scss";
