@@ -19,10 +19,18 @@ function Footer() {
             <p className="phone-number">(11)1234-5678</p>
           </div>
           <div className="third-column">
-            <a href="#">Products</a>
-            <a href="#">Team</a>
-            <a href="#">Blog</a>
-            <a href="#">Shop</a>
+            <p>
+              <a href="#">Products</a>
+            </p>
+            <p>
+              <a href="#">Team</a>
+            </p>
+            <p>
+              <a href="#">Blog</a>
+            </p>
+            <p>
+              <a href="#">Shop</a>
+            </p>
           </div>
         </div>
         <div className="f-mid">
