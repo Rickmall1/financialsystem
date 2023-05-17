@@ -31,8 +31,7 @@ header {
 
                 &:hover {
                     color: #F06F40;
-                    background-color: rgba(#0f1011, 0.75);
-                    border-radius: 1rem;
+                    border-radius: .5rem;
                     border-bottom: 1px solid #F06F40;
                 }
             }
@@ -46,10 +45,6 @@ header {
                 align-items: center;
                 gap: 1rem;
                 font-size: 1.4em;
-        
-                a {
-                    color: $brand-light-orange
-                }
         
                 .loginBtn {
                     color: $brand-primary-orange;
