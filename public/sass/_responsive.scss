@@ -1,0 +1,86 @@
+@media (max-width: 999px) {
+    //header
+    header {
+
+        .logo {
+            width: 50%;
+
+            img {
+                min-height: 100%;
+            }
+        }
+
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            background-color: #0f1011;
+            top: 0;
+            right: 0;
+            width: 90vw;
+            height: 100vh;
+            transition: .4s ease-in;
+            transform: translateX(100%);
+
+            li {
+              margin-bottom: 1em;
+            }
+        }
+
+        .Mobile {
+            display: block;
+            position: absolute;
+            padding: 25px;
+            right: 0;
+        }
+
+        .nav_active {
+            transform: translateX(0);
+        }
+    }
+
+    //hero
+    .s-hero {
+        flex-direction: column;
+        gap: 2em;
+
+        .img_pig {
+            img {
+                max-height: 300px;
+            }
+        }
+
+        .text {
+            h1 {
+                font-size: 3em !important;
+            }
+        }
+    }
+
+    //partners
+    .s-partners {
+        h2 {
+            font-size: 2em !important;
+        }
+    }
+
+    //dashboard
+    .s-dashboard {
+        flex-direction: column;
+        gap: 2em;
+
+        .dashboard_img {
+            img {
+                max-height: 200px;
+            }
+        }
+    }
+
+    //footer
+    .f-top {
+        flex-direction: column;
+        gap: 100px;
+    }
+}

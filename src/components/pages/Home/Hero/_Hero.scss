@@ -1,28 +1,30 @@
 .s-hero {
-    padding: 15.2rem 0 9rem 0;
+    padding: 15.2rem 2rem;
     background: url("../../../public/assets/img/Hero-background.png") no-repeat;
     background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    .container {
+    .img_pig {
+        width: 50%;
         display: flex;
-        align-items: center;
-        gap: 5.3rem;
+        justify-content: center;
     }
 
     .text{
-
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
+        justify-content: space-between;
         gap: 3.2rem;
-        width: 100%;
-        max-width: 61.8rem;
+        width: 50%;
 
         h1, p{
             color: $brand-light-orange;
             font-family: sans-serif;
             font-style: normal;
-            line-height: 125%;
         }
 
         h1 {

@@ -1,21 +1,23 @@
 @import "variables";
 @import "reset";
-@import "grid";
 
 // MainBtn
-@import "../../src/components/Global/MainBtn/MainBtn.scss";
+@import "../../src/components/Global/MainBtn/MainBtn";
 
 // Header
-@import "../../src/components/Home/Header/Header.scss";
+@import "../../src/components/layout/Header/Header";
+
+//Conatiner
+@import "../../src/components/layout/Container/Container";
 
 // Hero
-@import "../../src/components/Home/Hero/Hero.scss";
+@import "../../src/components/pages/Home/Hero/Hero";
 
 // Partners
-@import "../../src/components/Home/Partners/Partners.scss";
+@import "../../src/components/pages/Home/Partners/Partners";
 
 // Dashboard
-@import "../../src/components/Home/Dashboard/Dashboard.scss";
+@import "../../src/components/pages/Home/Dashboard/Dashboard";
 
 // Footer
-@import "../../src/components/Home/Footer/Footer.scss";
+@import "../../src/components/layout/Footer/Footer";
