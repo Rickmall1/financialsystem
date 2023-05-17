@@ -12,7 +12,7 @@ function Header() {
   return (
     <header>
       <div className="logo">
-        <img src="../../../public/assets/img/BudgetBuddy.svg" alt="" />
+        <img src="assets/img/BudgetBuddy.svg" alt="" />
       </div>
       <nav>
         <ul className={active ? "nav_active" : ".nav_list"}>

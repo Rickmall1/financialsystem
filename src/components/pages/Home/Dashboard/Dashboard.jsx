@@ -13,7 +13,7 @@ function Dashboard(props) {
         <MainBtn text="Cadastre-se" />
       </div>
       <div className="dashboard_img">
-        <img src="../../../public/assets/img/print-dashboard.jpg" alt="" />
+        <img src="assets/img/print-dashboard.jpg" alt="" />
       </div>
     </section>
   );
